@@ -21,4 +21,8 @@ const CommentComponent = (props) => {
     );
 }
 
+CommentComponent.defaultProps = {
+    commentText: 'This is a default value'
+}
+
 export default CommentComponent;
