@@ -1,7 +1,7 @@
 import React from 'react';
 import faker from 'faker'
-import CommentComponent from "./CommentComponent";
-import ApprovalCard from "./ApprovalCard";
+import CommentComponent from "./components/CommentComponent";
+import ApprovalCard from "./components/ApprovalCard";
 import ReactDOM from "react-dom";
 
 class App extends React.Component {
